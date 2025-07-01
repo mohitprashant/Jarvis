@@ -82,3 +82,5 @@ NoneType: None
 2025-07-01 00:41:00.997 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
 2025-07-01 00:41:01.078 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
 2025-07-01 00:41:01.133 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.47 seconds
+2025-07-01 01:00:53.396 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 01:00:53.396 - RealTimeSTT: realtimestt - INFO - None
