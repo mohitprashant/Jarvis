@@ -84,3 +84,727 @@ NoneType: None
 2025-07-01 00:41:01.133 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.47 seconds
 2025-07-01 01:00:53.396 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
 2025-07-01 01:00:53.396 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 15:14:50.824 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:14:50.836 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:14:50.841 - RealTimeSTT: realtimestt - ERROR - Wakeword engine  unknown/unsupported or wake_words not specified. Please specify one of: pvporcupine, openwakeword.
+NoneType: None
+2025-07-01 15:14:50.843 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:14:50.843 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:14:51.791 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:14:51.793 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:14:51.793 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:14:55.602 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:14:55.603 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:14:55.605 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:14:55.605 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:14:55.610 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:14:55.645 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'wakeword'
+2025-07-01 15:15:14.596 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in wait_audio, shutting down
+2025-07-01 15:15:14.597 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:15:14.608 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:15:15.343 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:15:23.405 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in text() method
+2025-07-01 15:15:31.045 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:15:31.045 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:15:31.051 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:15:31.051 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:15:31.055 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:15:31.055 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:15:31.055 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:15:31.055 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:15:31.969 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:15:31.969 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:15:31.971 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:15:31.971 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:15:31.971 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:15:31.971 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:15:35.155 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:15:35.155 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:15:35.156 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:15:35.156 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:15:35.156 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:15:35.156 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:15:35.156 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'recording'
+2025-07-01 15:15:35.156 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'recording'
+2025-07-01 15:15:47.882 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:15:47.882 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:15:47.884 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:15:47.884 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:15:47.886 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 202752
+2025-07-01 15:15:47.886 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 202752
+2025-07-01 15:15:47.886 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:15:47.886 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:15:47.926 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:15:47.926 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:15:47.931 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:15:47.931 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:15:47.954 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:15:47.954 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:15:48.056 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:15:48.056 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:15:48.160 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:15:48.160 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:15:48.254 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:15:48.254 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:15:48.303 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.37 seconds
+2025-07-01 15:15:48.303 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.37 seconds
+2025-07-01 15:16:07.086 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:16:07.086 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:16:07.086 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:16:07.093 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:16:07.093 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:16:07.093 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:16:07.097 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:16:07.097 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:16:07.097 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:16:07.097 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:16:07.097 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:16:07.097 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:16:07.639 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:16:07.639 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:16:07.639 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:16:07.641 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:16:07.641 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:16:07.641 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:16:07.641 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:16:07.641 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:16:07.641 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:16:11.124 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:16:11.124 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:16:11.124 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:16:11.125 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:16:11.125 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:16:11.125 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:16:11.125 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:16:11.125 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:16:11.125 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:16:11.125 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'recording'
+2025-07-01 15:16:11.125 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'recording'
+2025-07-01 15:16:11.125 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'recording'
+2025-07-01 15:16:19.237 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:16:19.237 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:16:19.237 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:16:19.239 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:16:19.239 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:16:19.239 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:16:19.241 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 130048
+2025-07-01 15:16:19.241 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 130048
+2025-07-01 15:16:19.241 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 130048
+2025-07-01 15:16:19.241 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:16:19.241 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:16:19.241 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:16:19.305 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:16:19.305 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:16:19.305 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:16:19.310 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:16:19.310 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:16:19.310 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:16:19.312 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.312 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.312 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.417 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.417 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.417 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.517 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.517 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.517 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.617 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.617 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.617 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:16:19.632 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:16:19.632 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:16:19.632 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:16:19.682 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.37 seconds
+2025-07-01 15:16:19.682 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.37 seconds
+2025-07-01 15:16:19.682 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.37 seconds
+2025-07-01 15:17:10.357 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:17:10.357 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:17:10.357 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:17:10.357 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:17:10.364 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:17:10.364 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:17:10.364 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:17:10.364 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:17:10.369 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:17:10.369 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:17:10.369 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:17:10.369 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:17:10.369 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:17:10.369 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:17:10.369 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:17:10.369 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:17:10.923 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:17:10.923 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:17:10.923 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:17:10.923 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:17:10.926 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:17:10.926 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:17:10.926 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:17:10.926 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:17:10.926 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:17:10.926 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:17:10.926 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:17:10.926 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:17:14.448 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:17:14.448 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:17:14.448 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:17:14.448 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:17:14.449 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:17:14.449 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:17:14.449 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:17:14.449 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:17:14.450 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:17:14.450 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:17:14.450 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:17:14.450 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:17:14.450 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'recording'
+2025-07-01 15:17:14.450 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'recording'
+2025-07-01 15:17:14.450 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'recording'
+2025-07-01 15:17:14.450 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'recording'
+2025-07-01 15:17:22.703 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:17:22.703 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:17:22.703 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:17:22.703 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:17:22.706 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:17:22.706 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:17:22.706 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:17:22.706 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:17:22.708 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 132096
+2025-07-01 15:17:22.708 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 132096
+2025-07-01 15:17:22.708 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 132096
+2025-07-01 15:17:22.708 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 132096
+2025-07-01 15:17:22.708 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:17:22.708 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:17:22.708 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:17:22.708 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:17:22.726 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:17:22.726 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:17:22.726 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:17:22.726 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:17:22.732 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:17:22.732 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:17:22.732 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:17:22.732 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:17:22.735 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.735 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.735 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.735 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.852 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.852 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.852 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.852 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.966 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.966 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.966 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:22.966 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:17:23.011 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:17:23.011 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:17:23.011 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:17:23.011 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:17:23.037 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.30 seconds
+2025-07-01 15:17:23.037 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.30 seconds
+2025-07-01 15:17:23.037 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.30 seconds
+2025-07-01 15:17:23.037 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.30 seconds
+2025-07-01 15:24:01.862 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 15:24:01.862 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 15:24:01.862 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 15:24:01.862 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 15:24:01.863 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 15:24:01.863 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 15:24:01.863 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 15:24:01.863 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 15:24:20.104 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 15:24:20.104 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 15:24:20.104 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 15:24:20.104 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 15:24:20.105 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 15:24:20.105 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 15:24:20.105 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 15:24:20.105 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 15:24:29.531 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:24:29.553 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:24:29.555 - RealTimeSTT: realtimestt - ERROR - Wakeword engine  unknown/unsupported or wake_words not specified. Please specify one of: pvporcupine, openwakeword.
+NoneType: None
+2025-07-01 15:24:29.573 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:24:29.573 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:24:30.511 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:24:30.512 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:24:30.512 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:24:33.469 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:24:33.470 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:24:33.471 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:24:33.471 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:24:33.475 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:24:33.480 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'wakeword'
+2025-07-01 15:24:51.513 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in wait_audio, shutting down
+2025-07-01 15:24:51.514 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:24:51.529 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:24:52.037 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:24:55.451 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-07-01 15:24:55.526 - RealTimeSTT: realtimestt - INFO - KeyboardInterrupt in text() method
+2025-07-01 15:33:48.266 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:33:48.285 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:33:48.287 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:33:48.287 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:33:49.107 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:33:49.108 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:33:49.108 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:33:51.970 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:33:51.971 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:34:38.291 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:34:38.291 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:34:38.296 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:34:38.296 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:34:38.299 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:34:38.299 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:34:38.299 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:34:38.299 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:34:38.965 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:34:38.965 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:34:38.967 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:34:38.967 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:34:38.967 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:34:38.967 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:34:42.364 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:34:42.364 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:34:42.365 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:34:42.365 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:35:14.619 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:35:14.619 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:35:14.619 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:35:14.624 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:35:14.624 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:35:14.624 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:35:14.627 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:35:14.627 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:35:14.627 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:35:14.627 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:14.627 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:14.627 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:15.370 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:15.370 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:15.370 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:15.372 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:35:15.372 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:35:15.372 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:35:15.372 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:35:15.372 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:35:15.372 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:35:18.512 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:35:18.512 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:35:18.512 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:35:18.513 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:35:18.513 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:35:18.513 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:35:56.917 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:35:56.917 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:35:56.917 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:35:56.917 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:35:56.921 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:35:56.921 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:35:56.921 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:35:56.921 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:35:56.923 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:35:56.923 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:35:56.923 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:35:56.923 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:35:56.923 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:56.923 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:56.923 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:56.923 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:57.236 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:57.236 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:57.236 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:57.236 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:35:57.238 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:35:57.238 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:35:57.238 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:35:57.238 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:35:57.238 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:35:57.238 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:35:57.238 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:35:57.238 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:36:00.856 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:36:00.856 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:36:00.856 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:36:00.856 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:36:00.857 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:36:00.857 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:36:00.857 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:36:00.857 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:36:00.858 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:00.858 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:00.858 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:00.858 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:00.858 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:00.858 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:00.858 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:00.858 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:00.861 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:00.861 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:00.861 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:00.861 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:03.700 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:03.700 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:03.700 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:03.700 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:03.701 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:03.701 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:03.701 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:03.701 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:03.701 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:03.701 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:03.701 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:03.701 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:03.705 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:03.705 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:03.705 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:03.705 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:04.851 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:04.851 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:04.851 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:04.851 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:04.853 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:04.853 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:04.853 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:04.853 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:04.854 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:04.854 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:04.854 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:04.854 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:04.913 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:04.913 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:04.913 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:04.913 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:04.917 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:04.917 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:04.917 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:04.917 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:04.919 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:04.919 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:04.919 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:04.919 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:04.987 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:04.987 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:04.987 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:04.987 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:05.044 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.13 seconds
+2025-07-01 15:36:05.044 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.13 seconds
+2025-07-01 15:36:05.044 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.13 seconds
+2025-07-01 15:36:05.044 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.13 seconds
+2025-07-01 15:36:05.046 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:05.046 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:05.046 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:05.046 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:05.046 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:05.046 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:05.046 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:05.046 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:05.050 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:05.050 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:05.050 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:05.050 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:07.340 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:07.340 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:07.340 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:07.340 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:07.340 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:07.340 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:07.340 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:07.340 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:07.341 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:07.341 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:07.341 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:07.341 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:07.341 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:07.341 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:07.341 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:07.341 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:08.500 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:08.500 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:08.500 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:08.500 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:08.502 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:08.502 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:08.502 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:08.502 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:08.502 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:08.502 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:08.502 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:08.502 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:08.568 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:08.568 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:08.568 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:08.568 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:08.572 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:08.572 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:08.572 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:08.572 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:08.573 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.573 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.573 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.573 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.688 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.688 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.688 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.688 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.803 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.803 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.803 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.803 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:08.860 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:08.860 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:08.860 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:08.860 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:08.919 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.35 seconds
+2025-07-01 15:36:08.919 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.35 seconds
+2025-07-01 15:36:08.919 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.35 seconds
+2025-07-01 15:36:08.919 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.35 seconds
+2025-07-01 15:36:08.922 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:08.922 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:08.922 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:08.922 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:08.922 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:08.922 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:08.922 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:08.922 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:08.925 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:08.925 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:08.925 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:08.925 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:13.361 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:14.511 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:14.511 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:14.511 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:14.511 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:14.511 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:14.511 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:14.511 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:14.511 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 34816
+2025-07-01 15:36:14.512 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:14.512 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:14.512 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:14.512 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:14.541 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:14.541 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:14.541 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:14.541 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:14.546 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:14.546 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:14.546 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:14.546 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:14.562 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.562 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.562 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.562 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.665 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.665 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.665 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.665 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.770 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.770 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.770 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.770 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:14.858 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:14.858 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:14.858 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:14.858 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:14.915 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.37 seconds
+2025-07-01 15:36:14.915 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.37 seconds
+2025-07-01 15:36:14.915 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.37 seconds
+2025-07-01 15:36:14.915 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.37 seconds
+2025-07-01 15:36:14.918 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:36:14.918 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:36:14.918 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:36:14.918 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:36:14.928 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:36:14.928 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:36:14.928 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:36:14.928 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:36:15.383 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:36:15.383 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:36:15.383 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:36:15.383 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:36:25.394 - RealTimeSTT: realtimestt - WARNING - Transcript process did not terminate in time. Terminating forcefully.
+2025-07-01 15:36:25.394 - RealTimeSTT: realtimestt - WARNING - Transcript process did not terminate in time. Terminating forcefully.
+2025-07-01 15:36:25.394 - RealTimeSTT: realtimestt - WARNING - Transcript process did not terminate in time. Terminating forcefully.
+2025-07-01 15:36:25.394 - RealTimeSTT: realtimestt - WARNING - Transcript process did not terminate in time. Terminating forcefully.
+2025-07-01 15:36:25.578 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-07-01 15:36:25.578 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-07-01 15:36:25.578 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-07-01 15:36:25.578 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-07-01 15:36:33.380 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:36:33.380 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:36:33.380 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:36:33.380 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:36:33.380 - RealTimeSTT: realtimestt - INFO - Starting RealTimeSTT
+2025-07-01 15:36:33.384 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:36:33.384 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:36:33.384 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:36:33.384 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:36:33.384 - RealTimeSTT: realtimestt - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2025-07-01 15:36:33.387 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:36:33.387 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:36:33.387 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:36:33.387 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:36:33.387 - RealTimeSTT: realtimestt - INFO - Initializing WebRTC voice with Sensitivity 3
+2025-07-01 15:36:33.387 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:36:33.387 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:36:33.387 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:36:33.387 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:36:33.387 - RealTimeSTT: realtimestt - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2025-07-01 15:36:33.689 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:36:33.689 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:36:33.689 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:36:33.689 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:36:33.689 - RealTimeSTT: realtimestt - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2025-07-01 15:36:33.691 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:36:33.691 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:36:33.691 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:36:33.691 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:36:33.691 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:36:33.691 - RealTimeSTT: realtimestt - DEBUG - Starting realtime worker
+2025-07-01 15:36:33.691 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:36:33.691 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:36:33.691 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:36:33.691 - RealTimeSTT: realtimestt - DEBUG - Waiting for main transcription model to start
+2025-07-01 15:36:37.213 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:36:37.213 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:36:37.213 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:36:37.213 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:36:37.213 - RealTimeSTT: realtimestt - DEBUG - Main transcription model ready
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - DEBUG - RealtimeSTT initialization completed successfully
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - INFO - Setting listen time
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:37.214 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'listening'
+2025-07-01 15:36:37.217 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:37.217 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:37.217 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:37.217 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:37.217 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording start
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - voice activity detected
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - recording started
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:53.950 - RealTimeSTT: realtimestt - INFO - State changed from 'listening' to 'recording'
+2025-07-01 15:36:53.951 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:53.951 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:53.951 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:53.951 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:53.951 - RealTimeSTT: realtimestt - DEBUG - Waiting for recording stop
+2025-07-01 15:36:55.940 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:55.940 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:55.940 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:55.940 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:55.940 - RealTimeSTT: realtimestt - INFO - recording stopped
+2025-07-01 15:36:55.941 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 48128
+2025-07-01 15:36:55.941 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 48128
+2025-07-01 15:36:55.941 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 48128
+2025-07-01 15:36:55.941 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 48128
+2025-07-01 15:36:55.941 - RealTimeSTT: realtimestt - DEBUG - No samples removed, final audio length: 48128
+2025-07-01 15:36:55.941 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:55.941 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:55.941 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:55.941 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:55.941 - RealTimeSTT: realtimestt - INFO - State changed from 'recording' to 'inactive'
+2025-07-01 15:36:56.018 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:56.018 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:56.018 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:56.018 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:56.018 - RealTimeSTT: realtimestt - INFO - State changed from 'inactive' to 'transcribing'
+2025-07-01 15:36:56.023 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:56.023 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:56.023 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:56.023 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:56.023 - RealTimeSTT: realtimestt - DEBUG - Adding transcription request, no early transcription started
+2025-07-01 15:36:56.026 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.026 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.026 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.026 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.026 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.130 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.130 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.130 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.130 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.130 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.238 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.238 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.238 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.238 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.238 - RealTimeSTT: realtimestt - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2025-07-01 15:36:56.271 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:56.271 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:56.271 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:56.271 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:56.271 - RealTimeSTT: realtimestt - INFO - State changed from 'transcribing' to 'inactive'
+2025-07-01 15:36:56.277 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.25 seconds
+2025-07-01 15:36:56.277 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.25 seconds
+2025-07-01 15:36:56.277 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.25 seconds
+2025-07-01 15:36:56.277 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.25 seconds
+2025-07-01 15:36:56.277 - RealTimeSTT: realtimestt - DEBUG - Model tiny completed transcription in 0.25 seconds
+2025-07-01 15:36:56.281 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:36:56.281 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:36:56.281 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:36:56.281 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:36:56.281 - RealTimeSTT: realtimestt - DEBUG - Finishing recording thread
+2025-07-01 15:36:56.291 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:36:56.291 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:36:56.291 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:36:56.291 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:36:56.291 - RealTimeSTT: realtimestt - DEBUG - Terminating reader process
+2025-07-01 15:36:56.682 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:36:56.682 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:36:56.682 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:36:56.682 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:36:56.682 - RealTimeSTT: realtimestt - DEBUG - Terminating transcription process
+2025-07-01 15:37:02.734 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-07-01 15:37:02.734 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-07-01 15:37:02.734 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-07-01 15:37:02.734 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-07-01 15:37:02.734 - RealTimeSTT: realtimestt - DEBUG - Finishing realtime thread
+2025-07-01 16:03:11.901 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 16:03:11.901 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 16:03:11.901 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 16:03:11.901 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 16:03:11.901 - RealTimeSTT: realtimestt - DEBUG - Receive from stdout pipe
+2025-07-01 16:03:11.901 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 16:03:11.901 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 16:03:11.901 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 16:03:11.901 - RealTimeSTT: realtimestt - INFO - None
+2025-07-01 16:03:11.901 - RealTimeSTT: realtimestt - INFO - None
