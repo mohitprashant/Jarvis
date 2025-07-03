@@ -12,16 +12,20 @@ from groq import Groq
 class LLMHandler(self):
     def __init__(self):
         self.client = None
+        self.model = "llama-3.3-70b-versatile"
         
         try:
             self.client = Groq(
                 api_key=os.environ.get("GROQ_API_KEY"),
                 )
+            return True
         except:
             print("LLM Not Available")
+            return False
         
         
-    def prompt(self):
+    def single_prompt(self, role, content):
+        
         
             
     
