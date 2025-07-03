@@ -9,7 +9,7 @@ import os
 from groq import Groq
 
 
-class LLMHandler(self):
+class LLMHandler():
     def __init__(self):
         self.client = None
         self.model = "llama-3.3-70b-versatile"
@@ -24,24 +24,16 @@ class LLMHandler(self):
             return False
         
         
-    def single_prompt(self, role, content):
+    def single_prompt(self, content, role="user"):
+        chat_completion = self.client.chat.completions.create(
+            messages=[
+                {
+                    "role": role,
+                    "content": content,
+                }
+            ],
+            model="llama-3.3-70b-versatile",
+        )
         
-        
-            
-    
-    
-
-
-
-chat_completion = client.chat.completions.create(
-    messages=[
-        {
-            "role": "user",
-            "content": "Explain the importance of fast language models",
-        }
-    ],
-    model="llama-3.3-70b-versatile",
-)
-
-print(chat_completion.choices[0].message.content)
+        return chat_completion.choices[0].message.content
 
