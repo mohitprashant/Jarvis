@@ -32,7 +32,7 @@ class LLMHandler():
                     "content": content,
                 }
             ],
-            model="llama-3.3-70b-versatile",
+            model= self.model,
         )
         
         return chat_completion.choices[0].message.content
