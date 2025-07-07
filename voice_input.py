@@ -18,10 +18,17 @@ def stop_callback():
     print("Recording stopped!")
 
 if __name__ == '__main__':
-    recorder = AudioToTextRecorder()
     
-    time_start = datetime.datetime.now()
-    while (datetime.datetime.now() - time_start).total_seconds() < 10:
+    
+    with AudioToTextRecorder(on_recording_start=start_callback,
+                                   on_recording_stop=stop_callback) as recorder:
         recorder.text(process_text)
         
-    recorder.shutdown()
+        
+    # recorder = AudioToTextRecorder()
+    
+    # time_start = datetime.datetime.now()
+    # while (datetime.datetime.now() - time_start).total_seconds() < 10:
+    #     recorder.text(process_text)
+        
+    # recorder.shutdown()

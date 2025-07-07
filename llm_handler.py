@@ -13,6 +13,7 @@ class LLMHandler():
     def __init__(self):
         self.client = None
         self.model = "llama-3.3-70b-versatile"
+        self.buffer = []
         
         try:
             self.client = Groq(
@@ -20,6 +21,7 @@ class LLMHandler():
                 )
         except:
             print("LLM Not Available")
+        
         
         
     def single_prompt(self, content, role="user"):
@@ -32,11 +34,24 @@ class LLMHandler():
             ],
             model= self.model,
         )
+        return chat_completion.choices[0].message.content
+    
+    
+    
+    def interaction(self, content, role="user"):
+        print('\nInput: ', content , '\n', flush=True)
+        out = self.single_prompt(content)
+        print('\nAgent: ', out, '\n', flush=True)
+        self.buffer.append({'user' : content, 'agent': out})
         
-        return self.client.chat_completion.choices[0].message.content
+        
+        
+    def reset_buffer(self):
+        self.buffer = []
+
+
 
 
 if __name__ == '__main__':
-    
     agent = LLMHandler()
-    print(agent.single_prompt("Tell me your purpose"))
+    print(agent.single_prompt("Give me recent news from this month"))
