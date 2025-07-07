@@ -7,9 +7,22 @@ Created on Tue Jul  1 15:20:33 2025
 
 import numpy as np
 import torch
-
-def process_text(text):
-    print(text)
+import datetime
+import voice_input as voc
+from voice_input import process_text
+import llm_handler as llm
 
 if __name__ == '__main__':
+    recorder = voc.AudioToTextRecorder()
+    agent = llm.LLMHandler()
+    
+    time_start = datetime.datetime.now()
+    while (datetime.datetime.now() - time_start).total_seconds() < 10:
+        prompt = recorder.text(process_text)
+        print(agent.single_prompt(prompt))
+        
+    recorder.shutdown()
+    
+    # agent = llm.LLMHandler()
+    # print(agent.single_prompt("Tell me your purpose"))
     

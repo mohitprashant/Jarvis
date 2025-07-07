@@ -18,10 +18,8 @@ class LLMHandler():
             self.client = Groq(
                 api_key=os.environ.get("GROQ_API_KEY"),
                 )
-            return True
         except:
             print("LLM Not Available")
-            return False
         
         
     def single_prompt(self, content, role="user"):
@@ -35,5 +33,10 @@ class LLMHandler():
             model= self.model,
         )
         
-        return chat_completion.choices[0].message.content
+        return self.client.chat_completion.choices[0].message.content
 
+
+if __name__ == '__main__':
+    
+    agent = LLMHandler()
+    print(agent.single_prompt("Tell me your purpose"))
