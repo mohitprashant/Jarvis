@@ -17,9 +17,10 @@ def start_callback():
 def stop_callback():
     print("Recording stopped!")
 
+
+
+
 if __name__ == '__main__':
-    
-    
     with AudioToTextRecorder(on_recording_start=start_callback,
                                    on_recording_stop=stop_callback) as recorder:
         recorder.text(process_text)

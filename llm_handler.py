@@ -38,11 +38,22 @@ class LLMHandler():
     
     
     
+    def chained_prompt(self, content, role='user'):
+        self.buffer.append({'role' : role, 'content' : content})
+        chat_completion = self.client.chat.completions.create(
+            messages=self.buffer,
+            model= self.model,
+        )
+        return chat_completion.choices[0].message.content
+    
+    
+    
     def interaction(self, content, role="user"):
         print('\nInput: ', content , '\n', flush=True)
-        out = self.single_prompt(content)
+        out = self.chained_prompt(content)
         print('\nAgent: ', out, '\n', flush=True)
-        self.buffer.append({'user' : content, 'agent': out})
+        # self.buffer.append({'role' : role, 'content' : content})
+        self.buffer.append({'role': 'assistant', 'content' : out})
         
         
         
