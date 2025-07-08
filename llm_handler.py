@@ -14,6 +14,8 @@ class LLMHandler():
         self.client = None
         self.model = "llama-3.3-70b-versatile"
         self.buffer = []
+        self.skill_list = []
+        self.persona = ''
         
         try:
             self.client = Groq(
@@ -21,6 +23,8 @@ class LLMHandler():
                 )
         except:
             print("LLM Not Available")
+            
+        self.reset_buffer()
         
         
         
@@ -58,9 +62,32 @@ class LLMHandler():
         
         
     def reset_buffer(self):
-        self.buffer = []
+        self.buffer = [{"role" : "system", "content" : self.persona}]
 
 
+
+    def load_skill_list(self, skill_file):
+        with open(skill_file) as f:
+            for x in f:
+                self.skill_list.append(x)
+                
+ 
+                
+    def load_persona(self, persona_file):
+        self.persona = ''
+        with open(persona_file) as f:
+            for x in f:
+                self.persona += x + '\n'
+                
+        self.persona += "Do not say more than 100 words unless asked to elaborate. \n"
+        self.persona += "\n\nYou also have the following skills: \n - kindness\n"
+        for x in self.skill_list:
+            self.persona += " - " + x
+            
+        self.reset_buffer()
+            
+        
+        
 
 
 if __name__ == '__main__':

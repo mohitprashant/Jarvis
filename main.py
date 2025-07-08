@@ -11,6 +11,7 @@ import datetime
 import voice_input as voc
 from voice_input import process_text
 import llm_handler as llm
+import os
 
 
 
@@ -18,10 +19,31 @@ if __name__ == '__main__':
     recorder = voc.AudioToTextRecorder()
     agent = llm.LLMHandler()
     
+    config = {
+        'skills' : 'Internal Data/Ego/skill_list.cfg',
+        'persona' : 'Internal Data/Ego/persona.cfg'
+        }
+    
+    for x in config:
+        if not os.path.exists(config[x]):
+            with open(config[x], 'w') as file:
+                file.write("")                                         # Temporary
+                print("Config created : ", config[x])
+        else:
+            print("Config loaded : ", config[x])
+            
+    
+    agent.load_skill_list(config['skills'])
+    agent.load_persona(config['persona'])
+    
+        
     
     time_start = datetime.datetime.now()
-    while (datetime.datetime.now() - time_start).total_seconds() < 10:
+    while((datetime.datetime.now() - time_start).total_seconds() < 10):
         recorder.text(agent.interaction)
         
     recorder.shutdown()
+    
+    print(agent.persona)
+    print(agent.buffer)
     
