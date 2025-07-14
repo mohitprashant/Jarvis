@@ -31,6 +31,9 @@ class FacialRecogition():
                     file_paths.append(full_path)
                     names.append(filename[:-4])
                     
+                    with open(full_path, 'rb') as file:
+                        loaded_variable = pickle.load(file)
+                        encodings.append(loaded_variable)
                     
         return names, encodings
     
@@ -43,8 +46,9 @@ class FacialRecogition():
     
     
     def encode_face(self, img):
-        face_locations = fr.face_locations(rgb_small_frame)
-        face_encodings = fr.face_encodings(rgb_small_frame, face_locations)
+        face_locations = fr.face_locations(img)
+        face_encodings = fr.face_encodings(img, face_locations)
+        return face_encodings, face_locations
         
         
     
@@ -83,7 +87,11 @@ class FacialRecogition():
         
 if __name__ == '__maind__':
     f = FacialRecogition()
-    f.take_a_picture()
+    img = f.take_a_picture()
+    face, loc = f.encode_face(img)
+    
+    for i in range(len(face)):
+        f.add_new(face[i], str(i))
     
 
         
@@ -91,10 +99,8 @@ if __name__ == '__maind__':
 if __name__ == '__main__':
     # default webcam
     stream = cv2.VideoCapture(0)
-    
-    
-    known_faces = []
-    kwown_names = []
+    f = FacialRecogition()
+    known_faces, known_names = f.friend_faces, f.friend_names
     
     face_locations = []
     face_encodings = []
@@ -125,7 +131,7 @@ if __name__ == '__main__':
                 
                 if True in matches:
                     first_match_index = matches.index(True)
-                    name = kwown_names[first_match_index]
+                    name = known_names[first_match_index]
                     
                 face_names.append(name)
                 

@@ -12,10 +12,18 @@ import voice_input as voc
 from voice_input import process_text
 import llm_handler as llm
 import os
+from flask import Flask
+from flask_restful import Api, Resource
 
 
+app = Flask(__name__)
 
 if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+if __name__ == '__maind__':
     recorder = voc.AudioToTextRecorder()
     agent = llm.LLMHandler()
     
