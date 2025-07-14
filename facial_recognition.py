@@ -43,7 +43,8 @@ class FacialRecogition():
     
     
     def encode_face(self, img):
-        pass
+        face_locations = fr.face_locations(rgb_small_frame)
+        face_encodings = fr.face_encodings(rgb_small_frame, face_locations)
         
         
     
@@ -80,14 +81,14 @@ class FacialRecogition():
         return rgb_small_frame
         
         
-if __name__ == '__main__':
+if __name__ == '__maind__':
     f = FacialRecogition()
     f.take_a_picture()
     
 
         
         
-if __name__ == '__maind__':
+if __name__ == '__main__':
     # default webcam
     stream = cv2.VideoCapture(0)
     
